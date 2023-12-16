@@ -1,7 +1,8 @@
 (ns stampdf.ui
   (:require [clojure.string :as string]
             [clojure.tools.cli :refer [parse-opts]]
-            [stampdf.core :refer [run version]]))
+            [stampdf.core :refer [run version]])
+  (:gen-class))
 
 (def cli-options
   [["-i" "--in-place" "overwrite the input file, use with care"]
