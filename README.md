@@ -14,9 +14,7 @@ Picking the stamp location happens by looking at the potential stamp regions and
 
 ## Example
 
-Before and after stamping (bottom left corner in this case):
-
-![Before](assets/before.png) ![After](assets/after.png)
+[Before](assets/before.png) and [after](assets/after.png) stamping, bottom left corner in this case.
 
 
 ## Download
