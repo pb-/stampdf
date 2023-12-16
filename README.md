@@ -2,7 +2,7 @@
 
 Stamp a short text string in the most suitable location onto every page of a PDF file.
 
-stampdf requires Java to run but is otherwise a [fully self-contained shell script(ish)](https://github.com/pb-/stampdf/releases) without any other dependencies.
+`stampdf` requires Java to run but is otherwise a [fully self-contained shell script(ish)](https://github.com/pb-/stampdf/releases) without any other dependencies.
 
 
 ## Rationale
@@ -14,12 +14,21 @@ Picking the stamp location happens by looking at the potential stamp regions and
 
 ## Example
 
-[Before](assets/before.png) and [after](assets/after.png) stamping, bottom left corner in this case.
+In this example `2023-12-16-0003` was stamped onto the page and the best location for that was determined to be along the right edge, on the bottom.
+
+![Example](assets/example.png)
 
 
 ## Download
 
-You can get a pre-built "binary" [here](https://github.com/pb-/stampdf/releases) (`chmod a+x stampdf` after download) or you can build it yourself:
+You can get a pre-built "binary" [from the releases page](https://github.com/pb-/stampdf/releases).
+
+```shell
+curl -L https://github.com/pb-/stampdf/releases/download/0.9.0/stampdf -o stampdf
+chmod a+x stampdf
+```
+
+Or your can build it yourself:
 
 ```shell
 make release
