@@ -9,7 +9,7 @@ Stamp a short text string in the most suitable location onto every page of a PDF
 
 The primary use case for `stampdf` is to automatically add a short identifier (think document number) to each page of a document without obstructing the contents. This is useful when you send out documents that may get printed, annotated by hand, scanned, and sent back to you again (hello, 🇩🇪).
 
-Picking the stamp location happens by looking at the potential stamp regions and works even when the document consists of scanned imagery. The font size for the identifier is chosen in such a way that it is reasonably readable when the document is printed to fit on an ~A4 page, regardless of actual document dimensions.
+Picking the stamp location happens by ~using advanced AI models~ looking at the potential stamp regions and works even when the document consists of scanned imagery. The font size for the identifier is chosen in such a way that it is reasonably readable when the document is printed to fit on an ~A4 page, regardless of actual document dimensions.
 
 
 ## Example
