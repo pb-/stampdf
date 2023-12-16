@@ -2,7 +2,7 @@
 
 Stamp a short text string in the most suitable location onto every page of a PDF file.
 
-stampdf requires Java to run but is otherwise a fully self-contained shell script(ish) without any other dependencies.
+stampdf requires Java to run but is otherwise a [fully self-contained shell script(ish)](https://github.com/pb-/stampdf/releases) without any other dependencies.
 
 
 ## Rationale
@@ -19,7 +19,7 @@ Picking the stamp location happens by looking at the potential stamp regions and
 
 ## Download
 
-You can get a pre-built "binary" here or you can build it yourself:
+You can get a pre-built "binary" [here](https://github.com/pb-/stampdf/releases) (`chmod a+x stampdf` after download) or you can build it yourself:
 
 ```shell
 make release
@@ -29,7 +29,7 @@ ls target/stampdf
 
 ## Usage
 
-See `stampdf --help`; a possibly outdated version is reproduced below.
+See `./stampdf --help`; a possibly outdated version is reproduced below.
 
 ```
 stampdf 0.9.0 -- stamp a short text string in the most suitable location onto every page of a PDF
