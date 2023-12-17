@@ -28,7 +28,7 @@ curl -L https://github.com/pb-/stampdf/releases/download/0.9.0/stampdf -o stampd
 chmod a+x stampdf
 ```
 
-Or your can build it yourself:
+Or your can build it yourself (needs Clojure and make):
 
 ```shell
 make release
@@ -38,7 +38,7 @@ ls target/stampdf
 
 ## Usage
 
-See `./stampdf --help`; a possibly outdated version is reproduced below.
+See `stampdf --help`; a possibly outdated version is reproduced below.
 
 ```
 stampdf 0.9.0 -- stamp a short text string in the most suitable location onto every page of a PDF
